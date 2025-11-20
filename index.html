@@ -212,6 +212,7 @@
         .obj-num { color: var(--text-muted); font-size: 0.7rem; display: block; margin-bottom: 2px;}
         .obj-ans { color: var(--accent-gold); font-weight: bold; } /* Changed color to accent-gold for objective answers */
 
+
         /* Styles for chemical formulas and highlights */
         .chem { font-family: 'Roboto Mono', monospace; color: var(--accent-gold); font-weight: bold; }
         .hl { color: var(--accent-blue); font-weight: bold; }
@@ -227,10 +228,10 @@
         }
     </style>
 </head>
-   <script>(function(s){s.dataset.zone='10205176',s.src='https://groleegni.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-<script>(function(s){s.dataset.zone='10205233',s.src='https://gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 <body>
-   
+     <script>(function(s){s.dataset.zone='10205176',s.src='https://groleegni.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<script>(function(s){s.dataset.zone='10205233',s.src='https://gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+
     <header>
         <div class="logo-area">
             <h1>WASSCE <span>2025</span></h1>
@@ -264,62 +265,104 @@
 
     <main class="content-container">
 
-        <!-- PRACTICAL SECTION -->
-        <div class="section-header">Chemistry Practical</div>
+        <!-- --- NEW ALTERNATIVE TO PRACTICALS SECTION --- -->
+        <div class="section-header" style="color: var(--accent-blue);">Alternative to Practicals</div>
 
+        <!-- Q1: Quantitative Analysis (Titration) -->
         <div class="question-card">
-            <div class="q-header"><div class="q-title">Question 3 - Reactions & Moles</div></div>
+            <div class="q-header"><div class="q-title">Question 1: Quantitative Analysis</div></div>
             <div class="q-content">
-(3ai) Hydrochloric acid with zinc metal
-<span class="chem">Zn + 2HCl -> ZnCl₂ + H₂</span>
+(1a) (i) <span class="hl">Calculate Concentration of KMnO₄ (mol/dm³):</span>
+Molar Mass (<span class="chem">KMnO₄</span>) = 158 g/mol
+Moles = 1.58 g / 158 g/mol = <span class="hl">0.01 mol</span>
+Conc = 0.01 mol / 0.5 dm³ = <span class="hl">0.020 mol/dm³</span>
 
-(3aii) Hydrochloric acid with zinc oxide
-<span class="chem">ZnO + 2HCl -> ZnCl₂ + H₂O</span>
+(1a) (ii) <span class="hl">Calculate Concentration of FeSO₄ (g/dm³):</span>
+Conc (g/dm³) = 5.65 g / 0.25 dm³ = <span class="hl">22.6 g/dm³</span>
 
-(3aiii) Hydrochloric acid with zinc trioxocarbonate(IV)
-<span class="chem">ZnCO₃ + 2HCl -> ZnCl₂ + CO₂ + H₂O</span>
+(1b) <span class="hl">Determine the value of x in FeSO₄·xH₂O:</span>
+Reaction Ratio (<span class="chem">MnO₄⁻ : Fe²⁺</span>): 1 : 5
+Using <span class="chem">CₐVₐ / C_bV_b = nₐ / n_b</span> (Assuming Vₐ = 24.80 cm³, V_b = 25.0 cm³):
+0.020 × 24.80 / (<span class="chem">C_b</span> × 25.0) = 1 / 5
+<span class="chem">C_b</span> = (0.020 × 24.80 × 5) / 25.0 = <span class="hl">0.0992 mol/dm³</span>
+Molar Mass (<span class="chem">FeSO₄·xH₂O</span>) = Conc(g/dm³) / Conc(mol/dm³)
+Molar Mass = 22.6 / 0.0992 = <span class="hl">227.8 g/mol</span>
+Mass of <span class="chem">FeSO₄</span> = 152 g/mol
+Mass of <span class="chem">xH₂O</span> = 227.8 - 152 = 75.8 g
+x = 75.8 / 18 ≈ <span class="hl">4</span>
 
-(3b) Calculation:
-Moles of sodium (Na) = 4.6g / 23g/mol = <span class="hl">0.2 mol</span>
-Atoms in 4.6g Na = 0.2 × 6.02×10²³ = 1.204×10²³ atoms
-Moles of H₂ required = 0.2 mol
-Mass of H₂ = 0.2 mol × 2g/mol = <span class="hl">0.4g</span>
-
-(3c) Organic Reaction:
-(i) Reaction: <span class="hl">Hydration</span> (addition of water)
-(ii) Reagent: Concentrated H₂SO₄
-(iii) Conditions: Acid catalyst, suitable temp/pressure
-(iv) Product: Propan-2-ol (<span class="chem">CH₃CH(OH)CH₃</span>)
-(v) Equation: <span class="chem">CH₃CH=CH₂ + H₂O -> CH₃CH(OH)CH₃</span>
+(1c) <span class="hl">Why not acidify with HNO₃?</span>
+Nitric acid (<span class="chem">HNO₃</span>) is a strong oxidizing agent. It would oxidize the <span class="chem">Fe²⁺</span> ions to <span class="chem">Fe³⁺</span>, causing interference and leading to an inaccurate titre result.
             </div>
         </div>
 
+        <!-- Q2: Qualitative Analysis -->
         <div class="question-card">
-            <div class="q-header"><div class="q-title">Question 5 - General Chemistry</div></div>
+            <div class="q-header"><div class="q-title">Question 2: Qualitative Analysis</div></div>
             <div class="q-content">
-(5a) Reactions of Chlorine:
-(i) 2NaOH + Cl₂ -> NaCl + NaClO + H₂O
-(ii) Cl₂ + H₂O -> HOCl + HCl
+<table style="width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 1rem;">
+    <thead>
+        <tr style="background-color: rgba(255, 255, 255, 0.1);">
+            <th style="padding: 8px; border: 1px solid var(--border-color); text-align: left;">Test</th>
+            <th style="padding: 8px; border: 1px solid var(--border-color); text-align: left;">Observation</th>
+            <th style="padding: 8px; border: 1px solid var(--border-color); text-align: left;">Inference</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">(a)(i) A(s) + dil. HCl</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">Effervescence; colourless, odourless gas evolved turns lime water milky.</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);"><span class="chem">Gas is CO₂</span></td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">(ii) Clear solution from (i) + NaOH drops/excess</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">White chalky precipitate formed. Precipitate <span class="hl">dissolved in excess</span>.</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);"><span class="chem">Zn²⁺ confirmed</span></td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">(iii) B(aq) + NaOH(aq) drops/excess</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">White precipitate formed, <span class="hl">insoluble in excess</span> NaOH.</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);"><span class="chem">Ca²⁺</span> or <span class="chem">Pb²⁺</span> indicated</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">(iv) B(aq) + <span class="chem">NH₃</span>(aq)</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">No precipitate formed.</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);"><span class="chem">Ca²⁺ confirmed</span> (distinguishes from Pb²⁺)</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">(v) B(aq) + dil. <span class="chem">HNO₃</span> + <span class="chem">AgNO₃</span></td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);">White precipitate formed.</td>
+            <td style="padding: 8px; border: 1px solid var(--border-color);"><span class="chem">Cl⁻ confirmed</span></td>
+        </tr>
+    </tbody>
+</table>
 
-(5aii) States of Matter:
-Chlorine: <span class="hl">Gas</span> | Fluorine: <span class="hl">Gas</span> | Astatine: <span class="hl">Solid</span>
-
-(5aiii) Van der Waals forces increase down the group due to increase in atomic size and polarizability.
-
-(5bi) Equilibrium Conditions:
-(i) Low temperature
-(ii) High pressure
-(Reason: Le Chatelier's principle to counteract changes).
-
-(5ci) Properties of Copper:
-High electrical conductivity, Ductility, Resistance to corrosion.
-
-(5di) Uses of Coal/Products:
-Construction, Fuel/Nutrition (context dependent), Manufacturing (glass/ceramics).
-Derivatives: <span class="hl">Coke, Coal tar</span>.
+<br>
+(2b) <span class="hl">Salts A and B:</span>
+Salt A: <span class="chem">Zinc Carbonate (ZnCO₃)</span>
+Salt B: <span class="chem">Calcium Chloride (CaCl₂)</span>
             </div>
         </div>
 
+        <!-- Q3: General Knowledge (Titration Theory) -->
+        <div class="question-card">
+            <div class="q-header"><div class="q-title">Question 3: Titration Theory</div></div>
+            <div class="q-content">
+(3a) (i) Effect of washing down splattered acid/base: <span class="hl">No.</span>
+(3a) (ii) Explanation: Adding distilled water does not change the <span class="hl">number of moles</span> of acid or base in the flask. It only changes the concentration, which does not affect the titre value needed to reach the equivalence point.
+
+(3b) (i) Factors influencing indicator choice:
+1. The <span class="hl">strength of the acid and the base</span>.
+2. The <span class="hl">pH range</span> over which the indicator changes colour.
+
+(3b) (ii) Explanation: The indicator's end point must match the reaction's equivalence point pH to ensure accuracy. (e.g., Methyl Orange for Strong Acid/Weak Base).
+
+(3c) (i) <span class="hl">Concordant titre values:</span> Titration results that are very close to each other (typically within <span class="hl">0.10 cm³</span>).
+(3c) (ii) Reason for Final > Initial reading: Burettes are graduated with <span class="hl">zero at the top</span>, so as liquid is dispensed, the meniscus moves down to a higher numerical value.
+(3c) (iii) Reason to wash burette after <span class="chem">NaOH</span> use: <span class="hl">Sodium Hydroxide</span> is a strong alkali that can react with the glass to form silicates, causing the stopcock to seize or stick if left to dry.
+            </div>
+        </div>
+        
         <!-- THEORY SECTION A -->
         <div class="section-header">Theory Section A</div>
 
@@ -428,8 +471,7 @@ Examples using Chlorine:
 Atom: Cl | Molecule: Cl₂ | Ion: Cl⁻
             </div>
         </div>
-
-
+        
         <!-- OBJECTIVES SECTION -->
         <div class="section-header" style="margin-top: 3rem; color: var(--accent-gold);">Chemistry Objective Answers</div>
         
@@ -441,14 +483,14 @@ Atom: Cl | Molecule: Cl₂ | Ion: Cl⁻
                 <div class="obj-item"><span class="obj-num">4</span><span class="obj-ans">C</span></div>
                 <div class="obj-item"><span class="obj-num">5</span><span class="obj-ans">A</span></div>
                 <div class="obj-item"><span class="obj-num">6</span><span class="obj-ans">C</span></div>
-                <div class="obj-item"><span class="obj-num">7</span><span class="obj-ans">A</span></div>
-                <div class="obj-item"><span class="obj-num">8</span><span class="obj-ans">D</span></div>
-                <div class="obj-item"><span class="obj-num">9</span><span class="obj-ans">C</span></div>
-                <div class="obj-item"><span class="obj-num">10</span><span class="obj-ans">B</span></div>
-                <div class="obj-item"><span class="obj-num">11</span><span class="obj-ans">B</span></div>
-                <div class="obj-item"><span class="obj-num">12</span><span class="obj-ans">A</span></div>
-                <div class="obj-item"><span class="obj-num">13</span><span class="obj-ans">D</span></div>
-                <div class="obj-item"><span class="obj-num">14</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">7</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">8</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">9</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">10</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">11</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">12</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">13</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">14</span><span class="obj-ans"></span></div>
                 <div class="obj-item"><span class="obj-num">15</span><span class="obj-ans">A</span></div>
                 <div class="obj-item"><span class="obj-num">16</span><span class="obj-ans">B</span></div>
                 <div class="obj-item"><span class="obj-num">17</span><span class="obj-ans">B</span></div>
@@ -482,9 +524,9 @@ Atom: Cl | Molecule: Cl₂ | Ion: Cl⁻
                 <div class="obj-item"><span class="obj-num">45</span><span class="obj-ans">B</span></div>
                 <div class="obj-item"><span class="obj-num">46</span><span class="obj-ans">B</span></div>
                 <div class="obj-item"><span class="obj-num">47</span><span class="obj-ans">D</span></div>
-                <div class="obj-item"><span class="obj-num">48</span><span class="obj-ans">A</span></div>
-                <div class="obj-item"><span class="obj-num">49</span><span class="obj-ans">D</span></div>
-                <div class="obj-item"><span class="obj-num">50</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">48</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">49</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">50</span><span class="obj-ans"></span></div>
             </div>
         </div>
 
