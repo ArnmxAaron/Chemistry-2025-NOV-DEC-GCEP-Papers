@@ -194,6 +194,24 @@
             white-space: pre-wrap; line-height: 1.6;
         }
 
+        /* Obj Grid */
+        .obj-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            gap: 0.5rem;
+        }
+        .obj-item {
+            background: rgba(0,0,0,0.2);
+            padding: 0.5rem;
+            text-align: center;
+            border-radius: 4px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .obj-num { color: var(--text-muted); font-size: 0.7rem; display: block; margin-bottom: 2px;}
+        .obj-ans { color: var(--accent-gold); font-weight: bold; } /* Changed color to accent-gold for objective answers */
+
         /* Styles for chemical formulas and highlights */
         .chem { font-family: 'Roboto Mono', monospace; color: var(--accent-gold); font-weight: bold; }
         .hl { color: var(--accent-blue); font-weight: bold; }
@@ -408,6 +426,65 @@ V₁ = 0.2 / 11.64 = <span class="hl">0.0172 dm³ (17.2 cm³)</span>
 
 Examples using Chlorine:
 Atom: Cl | Molecule: Cl₂ | Ion: Cl⁻
+            </div>
+        </div>
+
+
+        <!-- OBJECTIVES SECTION -->
+        <div class="section-header" style="margin-top: 3rem; color: var(--accent-gold);">Chemistry Objective Answers</div>
+        
+        <div class="question-card" style="border-color: var(--accent-gold);">
+            <div class="obj-grid">
+                <div class="obj-item"><span class="obj-num">1</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">2</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">3</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">4</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">5</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">6</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">7</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">8</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">9</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">10</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">11</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">12</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">13</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">14</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">15</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">16</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">17</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">18</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">19</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">20</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">21</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">22</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">23</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">24</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">25</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">26</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">27</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">28</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">29</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">30</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">31</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">32</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">33</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">34</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">35</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">36</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">37</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">38</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">39</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">40</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">41</span><span class="obj-ans">A</span></div>
+                <div class="obj-item"><span class="obj-num">42</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">43</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">44</span><span class="obj-ans">C</span></div>
+                <div class="obj-item"><span class="obj-num">45</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">46</span><span class="obj-ans">B</span></div>
+                <div class="obj-item"><span class="obj-num">47</span><span class="obj-ans">D</span></div>
+                <div class="obj-item"><span class="obj-num">48</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">49</span><span class="obj-ans"></span></div>
+                <div class="obj-item"><span class="obj-num">50</span><span class="obj-ans"></span></div>
             </div>
         </div>
 
